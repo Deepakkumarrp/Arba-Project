@@ -1,1 +1,99 @@
-# Arba-Project
+<h1 text-align="center" id="title">Full Stack Arba-Assignment</h1>
+
+### username : 
+### password : 
+
+<!-- <h2>🚀 Demo</h2> -->
+
+<!-- ### screenshots 
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]()
+
+![image]() -->
+
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. clone the following repository in you code-editor</p>
+
+```
+git clone https://github.com/Deepakkumarrp/Arba-Project
+```
+```
+cd client
+```
+
+<p>2. run the following command to download the dependencies</p>
+
+```
+npm install
+```
+
+<p>3. once the setup is complete navigate to the project folder and start your project with:</p>
+
+```
+npm run start
+```
+
+<p>4. Your application will be accessible at</p>
+
+```
+http://localhost:3000
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+### frontend -
+*   react
+*   react-redux
+*   redux-thunk
+*   react-icons
+*   react-router-dom
+*   react-simply-carousel
+### backend -
+*   express
+*   mongoose
+*   jsonwebtoken
+*   dotenv
+*   cors
+*   bcrypt
+
+### project endpoints 
+```
+/register - for signup
+/login - for login
+/update/:id - for updating user data
+/changepassword/:id - for Change Password
+/products/ - for getting all the product data
+/products/ - for posting product data : post method
+/products/:id - for updating product
+/products/:id - for delete product
+/category/ - for getting all the category data
+/category/ - for posting category data : post method
+/category/:id - for updating category
+/category/:id - for delete category
+```
+
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the deepakkumarrp

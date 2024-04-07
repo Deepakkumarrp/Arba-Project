@@ -1,14 +1,13 @@
-import React, { useContext } from 'react'
-import { AuthContext } from '../App'
-import { Link, Navigate, Outlet } from 'react-router-dom';
+import React from 'react'
+import { Navigate } from 'react-router-dom'
 
-function PrivateRoute() {
-    const {isAuth} = useContext(AuthContext);
-  return (
-    <div>
-        {isAuth ? <Outlet />  : <Navigate to={"/login"}/> }
-    </div>
-  )
+const PrivateRoute = ({ children }) => {
+    const token = JSON.parse(localStorage.getItem('token'))
+    if (token === null) {
+        return <Navigate to={"/"} />
+    }
+
+    return children
 }
 
-export default PrivateRoute;
+export default PrivateRoute
